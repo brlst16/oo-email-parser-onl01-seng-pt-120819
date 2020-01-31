@@ -15,11 +15,11 @@ class EmailAddressParser
   def parse
     email_addresses.split.collect do |address| 
     
-    address.split(", ")
-      name = data[0]
+    address.split(',') 
     end
     .flatten.uniq 
-    
+  end 
+
   end 
   
 end
