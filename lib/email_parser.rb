@@ -17,6 +17,8 @@ class EmailAddressParser
     
     data = address.split(", ")
       name = data[0]
+    end
+    flatten.uniq 
     
   end 
   
